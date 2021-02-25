@@ -24,7 +24,7 @@ Build OpenWrt using GitHub Actions
 
 ## Acknowledgments
 
-- [Microsoft Azure](https://azure.microsoft.com)
+- [garypang13](https://github.com/garypang13)
 - [GitHub Actions](https://github.com/features/actions)
 - [OpenWrt](https://github.com/openwrt/openwrt)
 - [Lean's OpenWrt](https://github.com/coolsnowwolf/lede)

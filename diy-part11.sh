@@ -21,4 +21,3 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-a
 cd package
 git clone https://github.com/kenzok8/openwrt-packages.git
 git clone https://github.com/kenzok8/small.git
-git clone https://github.com/garypang13/openwrt-packages/tree/master/lua-maxminddb

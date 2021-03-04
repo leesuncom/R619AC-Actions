@@ -18,10 +18,6 @@
 #sed -i '$a src-git Whitestorys https://github.com/Aibx/openwrt-packages' feeds.conf.default
 rm -rf package/lean/luci-theme-argon && git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-app-argon-config
-git clone https://github.com/garypang13/luci-app-bypass.git package/lean/luci-app-bypass
-git clone https://github.com/garypang13/openwrt-packages/tree/master/lua-maxminddb
-find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
-find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 
 cd package
 git clone https://github.com/kenzok8/openwrt-packages.git

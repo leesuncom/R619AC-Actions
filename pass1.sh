@@ -23,3 +23,5 @@ sed -i '$a src-git Whitestorys https://github.com/Aibx/openwrt-packages' feeds.c
 # cd package
 # git clone https://github.com/kenzok8/openwrt-packages.git
 # git clone https://github.com/kenzok8/small.git
+# 添加dnsfilter
+git clone https://github.com/garypang13/luci-app-dnsfilter.git package/luci-app-dnsfilter

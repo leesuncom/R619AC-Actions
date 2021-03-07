@@ -21,7 +21,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config package/lean/luci-a
 
 cd package
 git clone https://github.com/kenzok8/openwrt-packages.git
-#git clone https://github.com/kenzok8/small.git
+git clone https://github.com/kenzok8/small.git
 
 # 添加bypass
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass

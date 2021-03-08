@@ -9,11 +9,11 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-
 # Uncomment a feed source
-#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-git clone https://github.com/liuran001/openwrt-packages
+# sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
-#git clone https://github.com/garypang13/luci-app-dnsfilter.git package/lean/luci-app-dnsfilter
+cd package
+git clone https://github.com/liuran001/openwrt-packages
